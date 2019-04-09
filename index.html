@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<!-- Empieza codigo calculadora html-->
+<div class="completo" >
+  <form name="calcular">
+    <h1>Calculadora</h1>
+    <input id="p01" type="textfield" name="casilla" value="">
+    <br>
+    <input type="button" value="7" onClick="calcular.casilla.value+='7'">
+    <input type="button" value="8" onClick="calcular.casilla.value+='8'">
+    <input type="button" value="9" onClick="calcular.casilla.value+='9'">
+    <input type="button" value="/" onClick="calcular.casilla.value+='/'">
+    <br>
+    <input type="button" value="4" onClick="calcular.casilla.value+='4'">
+    <input type="button" value="5" onClick="calcular.casilla.value+='5'">
+    <input type="button" value="6" onClick="calcular.casilla.value+='6'">
+    <input type="button" value="*" onClick="calcular.casilla.value+='*'">
+    <br>
+    <input type="button" value="1" onClick="calcular.casilla.value+='1'">
+    <input type="button" value="2" onClick="calcular.casilla.value+='2'">
+    <input type="button" value="3" onClick="calcular.casilla.value+='3'">
+    <input type="button" value="-" onClick="calcular.casilla.value+='-'">
+    <br>
+    <input type="button" value="0" onClick="calcular.casilla.value+='0'">
+    <input type="reset" value="c">
+    <input type="button" value="+" onClick="calcular.casilla.value+='+'">
+    <input type="button" value="=" onClick="calcular.casilla.value=eval(calcular.casilla.value)">
+    </form>
+</div>
+</body>
+</html>
+
